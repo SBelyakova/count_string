@@ -11,7 +11,7 @@ for name in file_list:
     count = len(f.readlines())
     # print(count)
     new_list.append([count, name])
-  f.close()
+
 # print(new_list)  
 new_list.sort()
 # print(new_list)
